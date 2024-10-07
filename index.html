@@ -7,11 +7,36 @@
     <title>Queen</title>
 </head>
 
-<body>
-    <h1>Queen</h1>
+<body><!--Para dar un espaciado en la tabla añadimos un padding-->
+    <style>
+        body{
+            background-image: url(imagenes/QueenBackground.png);
+            background-size: cover;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: white;
+            padding: 10px;  
+        }
+        th{
+            color: white; background-color: gray;
+        }
+        h1{
+            font-size: 30px;color: #333333e7;
+        }
+        h2{
+            font-size: 20px;color: #666666d7;
+        }
+        body{
+            background-color: gainsboro;
+
+        }
+    </style>
+    <h1 ">Queen</h1>
     <p>Banda británica de rock formada en 1970 en Londres</p>
     <div>
-        <img src="imagenes/Queen_A_Night_At_The_Opera.jpg" width="600px" height="300px">
+        <img src="imagenes/Queen_A_Night_At_The_Opera.jpg" width="400px" height="200px">
     </div>
     <h2>Integrantes del grupo</h2>
     <ul>
@@ -21,13 +46,7 @@
         <li>Roger Taylor</li>
     </ul>
     <h2>Discografía</h2>
-    <table style="border:1px solid black">
-        <style>
-            table,th,td{
-                border: 1px solid black;
-                border-collapse: collapse;
-            }
-        </style>
+    <table>
         <caption>Grandes éxitos de Queen</caption>
         <tr>
             <th>Año</th>
@@ -49,7 +68,7 @@
         </tr>
 
         <tr>
-            <td colspan="2">"A Kind of Magic" fue el álbum mas exitoso</td>
+            <td colspan="2" style="background-color: lightgrey;">"A Kind of Magic" fue el álbum mas exitoso</td>
         </tr>
 
 
